@@ -1,10 +1,12 @@
---base-amount is initial base token liquidity
+# Shitcoin-Bot
 
---quote-amount  is initial quote token liquidity
+`--base-amount` is initial base token liquidity
 
---buy-token which token you want to buy (ans in base or quote)
+`--quote-amount`  is initial quote token liquidity
 
---buy-amount for how many token instantly you want to buy just after the pool creation
+`--buy-token` which token you want to buy (ans in base or quote)
+
+`--buy-amount` for how many token instantly you want to buy just after the pool creation
 
 
 
