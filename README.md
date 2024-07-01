@@ -25,14 +25,14 @@ node ./dist/index.js removeliquidity --pool 2MMjLmVMBWChxfWT3baZ3Xq57c1Z3UyVoQUZ
 ```
 
 ### creates pool, adds liq, removes liq:
-'''cmd
+```cmd
 node ./dist/index.js createpool-remove --market "FLxNH1ciyL1LNfbWm9aMBS235K9ti2iyGd9SNdwECkzU" --base-amount 850000000 --quote-amount 8 --delay-seconds 0
-
+```
 
 ### creates pool, adds liq, removes liq ncludes bundle buys:
-'''cmd
+```cmd
 node ./dist/index.js createpool-buy-remove --market "48YUgRMkxk7fGSVdxMWzJVgoBJ1jDtp9nvkPgHXCo7RE" --base-amount 850000000 --quote-amount 8 --buy-token "base" --buy-amount 350000000 --delay-seconds 1
-
+```
 
 ### Unwrap Sol:
 ```cmd
