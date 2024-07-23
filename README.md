@@ -122,13 +122,21 @@ node ./dist/index.js createtoken --name "dagecoin" --symbol "dagecoin" --decimal
 node ./dist/index.js createtoken --name "keawnu weeves" --symbol "neow" --decimals 5 --initial-minting 1000000000 --image "https://neow.fun/assets/images/logo-coin.PNG" --website "https://neow.fun/" --twitter "" --telegram "" --description ""  
 
 ```
-
+```
 export NODE_PATH=./dist && node ./dist/index.js createmarket --order-size 0.01 --price-tick 0.1 --quote "So11111111111111111111111111111111111111112" --base ""
+```
+```
 export NODE_PATH=./dist && node ./dist/index.js revokeauth --token "E89PFXFkxAyXhdocLszAxVS35jERhMqDyDjsZiFsbgi"
+```
+```
 export NODE_PATH=./dist && node ./dist/index.js createpool --baseAmount 850000000 --quoteAmount 20 --market ""
+```
+```
 export NODE_PATH=./dist && node ./dist/index.js removeliquidity --amount -1 --pool ""
+```
+```
 export NODE_PATH=./dist && node ./dist/index.js unwrap
-
+```
 
 ### RUN ALLS
 ```
